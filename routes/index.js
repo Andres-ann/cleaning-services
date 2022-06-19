@@ -8,22 +8,22 @@ router.get('/', function(req, res, next) {
 
 /* GET section page (nosotros.ejs). */
 router.get('/nosotros', function(req, res, next) {
-  res.render('nosotros', { title: 'Nosotros' });
+  res.render('nosotros', { title: 'Cleaning Services | Nosotros' });
 });
 
 /* GET section page (servicios.ejs). */
 router.get('/servicios', function(req, res, next) {
-  res.render('servicios', { title: 'Servicios' });
+  res.render('servicios', { title: 'Cleaning Services | Servicios' });
 });
 
 /* GET section page (sustentabilidad.ejs). */
-router.get('/sustentabilidad', function(req, res, next) {
-  res.render('sustentabilidad', { title: 'Sustentabilidad' });
+router.get('/covid-19', function(req, res, next) {
+  res.render('covid-19', { title: 'Cleaning Services | Covid-19' });
 });
 
 /* GET section page (contacto.ejs). */
 router.get('/contacto', function(req, res, next) {
-  res.render('contacto', { title: 'Contacto' });
+  res.render('contacto', { title: 'Cleaning Services | Contacto' });
 });
 
 module.exports = router;
